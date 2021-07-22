@@ -38,6 +38,7 @@ public class BlogController {
         System.out.println("master测试");
         System.out.println("第二次修改");
         System.out.println("GitHub修改");
+        System.out.println("GitHub修改2.0");
         return Result.succ(pageData);
     }
     @GetMapping("/blog/{id}")
