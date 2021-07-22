@@ -36,6 +36,7 @@ public class BlogController {
         IPage pageData = blogService.page((IPage<Blog>) page, new QueryWrapper<Blog>().orderByDesc("created"));
         System.out.println("hot-fix改正");
         System.out.println("master测试");
+        System.out.println("第二次修改");
         return Result.succ(pageData);
     }
     @GetMapping("/blog/{id}")
